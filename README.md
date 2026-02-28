@@ -1,14 +1,19 @@
-# MyCabinet
+# My Cabinet – Medical Management System
 
-Application JavaFX pour la gestion d’un cabinet médical.
+Java desktop application for managing a medical cabinet.
 
-Fonctionnalités :
-- Gestion des patients
-- Gestion des rendez-vous
-- Gestion des ordonnances
-- Interface Admin / Médecin / Patient
+## Features
+- Patient management
+- Appointment scheduling
+- Medical records storage
 
-Technologies :
+## Technologies
 - Java
-- JavaFX
-- MYSQL
+- Java Swing (or JavaFX if used)
+
+## How to run
+Compile the project:
+javac -d bin src/**/*.java
+
+Run:
+java -cp bin Main
